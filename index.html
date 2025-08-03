@@ -1,13 +1,183 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Redirecting...</title>
-    <script>
-      window.location.href = "https://ritualage.substack.com/archive";
-    </script>
-  </head>
-  <body>
-    <p>Redirecting to <a href="https://ritualage.substack.com/archive">ritualage.substack.com/archive</a>...</p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ritual Age — Tools for mindful intelligence</title>
+  <meta name="description" content="Ritual Age builds thoughtful tools for creators and researchers: Tank, Presence, Orbit, and Stash."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Ritual Age home">
+      <img class="brand-mark" src="assets/ritualage-logo.svg" alt="" width="28" height="28" />
+      <span class="brand-name">Ritual <em>Age</em></span>
+    </a>
+    <nav class="primary-nav" aria-label="main">
+      <a href="#products">Products</a>
+      <a href="#ethos">Ethos</a>
+      <a href="#open">Open&nbsp;Source</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-card" role="img" aria-label="Gradient panel with pixel heart">
+        <div class="hero-badge">new</div>
+        <h1>Your next ritual.</h1>
+        <p>Sharper focus. Kinder defaults. Tools that help you pay attention to what matters.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#products">Explore the suite</a>
+          <a class="btn btn-ghost" href="#open">Why open source?</a>
+        </div>
+      </div>
+      <div class="hero-copy">
+        <h2>Remember your first rabbit hole?</h2>
+        <p>That feeling when curiosity lifts you. Ritual Age designs software that keeps that spark alive without burning you out.</p>
+        <ul class="hero-list">
+          <li>Fast to start, delightful to master</li>
+          <li>Privacy‑respecting, human‑centered</li>
+          <li>Built with an eye for craft</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- PRODUCTS -->
+    <section id="products" class="products">
+      <h2 class="section-title">Make with <span>Ritual</span></h2>
+      <p class="section-kicker">Four opinionated tools. One calm aesthetic.</p>
+      <div class="grid">
+        <!-- Tank -->
+        <article class="card product">
+          <img src="assets/icon-tank.svg" class="product-icon" alt="" aria-hidden="true">
+          <div class="product-meta">
+            <div class="product-heading">
+              <h3>Tank <span class="byline">by Ritual Age</span></h3>
+              <span class="tag">beta</span>
+            </div>
+            <p class="product-desc">A surgical TikTok analysis toolkit — map creators, content, and signals with explainable metrics.</p>
+          </div>
+          <div class="product-cta">
+            <a href="#" class="btn btn-small">Learn more</a>
+          </div>
+        </article>
+
+        <!-- Presence -->
+        <article class="card product">
+          <img src="assets/icon-presence.svg" class="product-icon" alt="" aria-hidden="true">
+          <div class="product-meta">
+            <div class="product-heading">
+              <h3>Presence <span class="byline">by Ritual Age</span></h3>
+              <span class="tag">new</span>
+            </div>
+            <p class="product-desc">A psyche‑centering companion. Breathing, pacing, and micro‑rituals that bring you back to now.</p>
+          </div>
+          <div class="product-cta">
+            <a href="#" class="btn btn-small">Learn more</a>
+          </div>
+        </article>
+
+        <!-- Orbit -->
+        <article class="card product">
+          <img src="assets/icon-orbit.svg" class="product-icon" alt="" aria-hidden="true">
+          <div class="product-meta">
+            <div class="product-heading">
+              <h3>Orbit <span class="byline">by Ritual Age</span></h3>
+              <span class="tag">research</span>
+            </div>
+            <p class="product-desc">A prophylactic toolkit for managing ADHD symptoms: tiny nudges, time boxing, and friction‑smart queues.</p>
+          </div>
+          <div class="product-cta">
+            <a href="#" class="btn btn-small">Learn more</a>
+          </div>
+        </article>
+
+        <!-- Stash -->
+        <article class="card product">
+          <img src="assets/icon-stash.svg" class="product-icon" alt="" aria-hidden="true">
+          <div class="product-meta">
+            <div class="product-heading">
+              <h3>Stash <span class="byline">by Ritual Age</span></h3>
+              <span class="tag">lab</span>
+            </div>
+            <p class="product-desc">Cannabis research &amp; analysis + exploration. Chemotypes over strain names, evidence over hype.</p>
+          </div>
+          <div class="product-cta">
+            <a href="#" class="btn btn-small">Learn more</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ETHOS -->
+    <section id="ethos" class="ethos">
+      <div class="ethos-card card">
+        <code aria-label="sample config">
+span.power = true
+latency.ms  = 42
+delight++
+        </code>
+        <div>
+          <h2>Industrial calm.</h2>
+          <p>We believe serious software can feel playful without being noisy. It should be stable, observable, and kind on your nervous system.</p>
+          <ul class="ethos-list">
+            <li>Clear typography and motion used sparingly</li>
+            <li>Accessible by default — keyboard and screen‑reader friendly</li>
+            <li>Telemetry you control</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- OPEN SOURCE -->
+    <section id="open" class="open">
+      <h2 class="section-title">We love open source.</h2>
+      <p class="section-kicker">Ritual Age stands on countless community projects and contributes back whenever we can.</p>
+      <div class="logos">
+        <span class="logo-pill">Git</span>
+        <span class="logo-pill">Python</span>
+        <span class="logo-pill">Bun</span>
+        <span class="logo-pill">Node</span>
+        <span class="logo-pill">Rust</span>
+        <span class="logo-pill">Postgres</span>
+      </div>
+    </section>
+
+    <!-- CONTACT / NEWSLETTER -->
+    <section id="contact" class="contact">
+      <div class="contact-card card">
+        <div>
+          <h2>Tail the logs.</h2>
+          <p>Get occasional lab notes — no spam. Just release updates and a few ideas worth your attention.</p>
+          <form class="newsletter" action="#" method="post" onsubmit="return false;">
+            <label class="sr-only" for="email">Email address</label>
+            <input id="email" name="email" type="email" placeholder="you@domain.com" required />
+            <button class="btn" type="submit" onclick="fakeSubscribe()">Subscribe</button>
+          </form>
+        </div>
+        <div>
+          <h2>Let’s chat.</h2>
+          <p>Have a dream or a problem we should explore together? Say hi and tell us what you’re building.</p>
+          <a class="btn btn-primary" href="mailto:hello@ritual.age">hello@ritual.age</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Ritual Age — Built with care.</p>
+    <div class="social">
+      <a href="#" aria-label="Ritual Age on X">𝕏</a>
+      <a href="#" aria-label="Ritual Age on GitHub">GitHub</a>
+      <a href="#" aria-label="Ritual Age on TikTok">TikTok</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
