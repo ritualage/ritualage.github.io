@@ -1,0 +1,10 @@
+<svg width="28" height="28" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ritual Age mark">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ff74e6"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+  <rect x="1.5" y="1.5" width="25" height="25" rx="6" fill="url(#g)" stroke="rgba(255,255,255,.6)"/>
+  <path d="M9.5 8.5h9l-4.5 11-1.8-4.2H9.5z" fill="rgba(255,255,255,.9)"/>
+</svg>
